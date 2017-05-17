@@ -1,0 +1,5 @@
+
+#开发环境，关闭 thymeleaf的 缓存
+spring:
+   thymeleaf:
+      cache: false

@@ -1,4 +1,4 @@
-package com.spring.cloud.book.test.web;
+package com.spring.cloud.book.test.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,5 +28,4 @@ public class LogController {
         logger.error("Logger Level ：ERROR");
         return "welcome to log controller";
     }
-
 }
